@@ -5,6 +5,12 @@ body {
 
 header h1 {
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 5px;
 }
 
 header nav {
@@ -12,6 +18,13 @@ header nav {
   text-align: center;
   padding-bottom: 30px;
 }
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
 header ul {
   margin: 0;
   padding: 0;
@@ -22,9 +35,46 @@ header li {
   padding: 0 20px 0 20px;
 }
 
+li a {
+  color: gray;
+}
+
+li a:hover {  
+  color: navy;
+}
+
+span {
+  background-color: navy;
+  color: white;
+}
+
+img{
+  width: 50%;
+  height: 125px;
+}
+
+
+/* Boxes */
+#boxes{
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .section-one {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .section-two {
@@ -33,12 +83,12 @@ header li {
 }
 
 
-
 .section-three {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 footer {
   text-align: center;
+  margin-top: 70px;
 }
